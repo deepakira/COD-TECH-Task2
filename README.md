@@ -18,7 +18,6 @@
 ## OBJECTIVE
 The Objective of this project is to craft a simple WEATHER FORECAST  web application using HTML,CSS,and Javascript.
 
-![kira](https://github.com/user-attachments/assets/18d07ff4-ed82-413b-8ff3-36b2b19225a4)
 
 
 ## PREREQUISITES:
@@ -50,3 +49,6 @@ The Objective of this project is to craft a simple WEATHER FORECAST  web applica
 - Once the details are fetched, then these details are been represented in the weatherShowFn().
 
   ## HERE IS THE OUTPUT FOR WEATHER FORCAST WEB APPLICATION:
+
+  ![kira](https://github.com/user-attachments/assets/18d07ff4-ed82-413b-8ff3-36b2b19225a4)
+
