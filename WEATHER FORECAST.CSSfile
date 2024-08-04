@@ -1,1 +1,178 @@
 /* Here is the CSS code for simple Weather Forecast Web Application */
+body {
+    margin: 0;
+    background: url('https://static.vecteezy.com/system/resources/thumbnails/004/125/202/small_2x/panorama-of-night-sky-with-clouds-and-full-moon-photo.jpg') no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+}
+
+h1 {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 40px;
+    color: rgb(227, 212, 240);
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 300px;
+    padding: 20px;
+    width: 100%;
+    max-width: 1200px;
+    
+   
+}
+
+.forecastcard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px; 
+    width: 300px;
+}
+
+.additional-info-container {
+    background: rgba(180, 239, 243, 0.5);
+    border-radius: 20px;
+    padding: 20px;
+    width: 100%;
+    box-shadow: 0 0 30px rgba(126, 201, 219, 0.5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.additional-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    color: rgb(234, 234, 234);
+}
+
+.additional-info .detail-item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 10px;
+}
+
+.additional-info .detail-item i {
+    font-size: 24px;
+}
+
+.additional-info .detail-item span {
+    font-size: 12px;
+}
+
+.forecast-container {
+    background: rgba(37, 72, 93, 0.7);
+    border-radius: 20px;
+    padding: 20px;
+    width: 100%;
+    box-shadow: 0 0 30px rgba(178, 230, 235, 0.5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(243, 243, 243);
+}
+
+.forecast-header {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.forecast-details {
+    margin-top: 20px;
+    width: 100%;
+}
+
+.forecast-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.forecast-item:last-child {
+    border-bottom: none;
+}
+
+.forecast-item img {
+    width: 40px;
+    height: 40px;
+}
+
+.weathercard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px; 
+}
+
+.weathercard h3 {
+    color: rgb(255, 255, 255);
+    font-size:25px;
+    margin-bottom: 20px;
+}
+
+.weathercard input[type="text"],
+.weathercard button {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    font-size: 16px;
+}
+
+.weathercard button {
+    background-color: rgb(64, 152, 157);
+    color: white;
+    cursor: pointer;
+}
+
+.weather-details-bottom {
+    position: absolute;
+    bottom: 60px;
+    left: 200px;
+    background: rgba(180, 239, 243, 0.5);
+    box-shadow: 0 0 30px rgba(11, 215, 215, 0.5);
+    border-radius: 10px;
+    padding: 20px;
+    color: rgb(0, 0, 0);
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+.weather-details-bottom .temperature {
+    font-size: 45px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.weather-details-bottom img {
+    width: 45px;
+    height: 45px;
+    margin-left: 10px;
+}
+
+.weather-details-bottom .city-name {
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 10px;
+}
