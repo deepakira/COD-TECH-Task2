@@ -50,5 +50,6 @@ The Objective of this project is to craft a simple WEATHER FORECAST  web applica
 
   ## HERE IS THE OUTPUT FOR WEATHER FORCAST WEB APPLICATION:
 
-  ![kira](https://github.com/user-attachments/assets/18d07ff4-ed82-413b-8ff3-36b2b19225a4)
+  ![kira](https://github.com/user-attachments/assets/9be4c694-6335-4e0d-bd3a-1dc5200d63d9)
+
 
