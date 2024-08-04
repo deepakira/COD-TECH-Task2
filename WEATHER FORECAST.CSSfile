@@ -1,7 +1,7 @@
 /* Here is the CSS code for simple Weather Forecast Web Application */
 body {
     margin: 0;
-    background: url('https://static.vecteezy.com/system/resources/thumbnails/004/125/202/small_2x/panorama-of-night-sky-with-clouds-and-full-moon-photo.jpg') no-repeat center center fixed;
+    background: url('https://images.wallpapersden.com/image/download/cloud-4k-moon_bmVqZWmUmZqaraWkpJRpZmpurWdqZWk.jpg') no-repeat center center fixed;
     background-size: cover;
     font-family: 'Montserrat', sans-serif;
     display: flex;
@@ -41,7 +41,7 @@ h1 {
 }
 
 .additional-info-container {
-    background: rgba(180, 239, 243, 0.5);
+    background: rgba(5, 32, 33, 0.7);
     border-radius: 20px;
     padding: 20px;
     width: 100%;
